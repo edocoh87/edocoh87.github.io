@@ -1,0 +1,7 @@
+title: Your Name
+description: Personal Academic Page
+theme: minima
+url: "https://yourusername.github.io"
+
+# Build settings
+markdown: kramdown

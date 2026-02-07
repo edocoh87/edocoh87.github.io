@@ -75,4 +75,4 @@ Brief announcement at Principles of Distributed Computing (PODC) 2017
 
 ## Contact
 
-Email: edocohen@mail.tau.ac.il
+[Email](edocohen@mail.tau.ac.il) | [LinkedIn](https://www.linkedin.com/in/edo-cohen) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=uLBSdVQAAAAJ$0)

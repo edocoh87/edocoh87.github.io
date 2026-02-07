@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Edo Cohen-Karlik
 
 I'm an AI researcher and builder. Over the past several years, I've worked on some of the problems I find most fascinating — teaching machines to argue (IBM's Project Debater), generating novel drug candidates (Google Research), and now shaping AI strategy as VP of AI at a stealth startup. I'm driven by the belief that the most impactful AI work happens where rigorous research meets real-world products.

@@ -6,9 +6,9 @@ I'm an AI researcher and builder. Over the past several years, I've worked on so
 
 ## Teaching
 
-* Workshop in Machine Learning 2019-2023
-* Foundations of Deep Learning 2020
-* Introduction to Machine Learning 2017-2018
+- Workshop in Machine Learning 2019-2023
+- Foundations of Deep Learning 2020
+- Introduction to Machine Learning 2017-2018
 
 ---
 
@@ -58,7 +58,7 @@ Association for the Advancement of Artificial Intelligence (AAAI) 2020
 Y. Kantor, Y. Katz, L. Choshen, **E. Cohen-Karlik**, N. Liberman, A. Toledo, A. Menczel, N. Slonim  
 Workshop at Association for Computational Linguistics (ACL) 2019
 
-**[Automatic Argument Quality Assessment–New Datasets and Methods](https://arxiv.org/pdf/1909.01007)**  
+**[Automatic Argument Quality Assessment--New Datasets and Methods](https://arxiv.org/pdf/1909.01007)**  
 A. Toledo, S. Gretz, **E. Cohen-Karlik**, R. Friedman, E. Venezian, D. Lahav, M. Jacovi, R. Aharonov, N. Slonim  
 Empirical Methods in Natural Language Processing (EMNLP) 2019
 
@@ -70,4 +70,4 @@ Brief announcement at Principles of Distributed Computing (PODC) 2017
 
 ## Contact
 
-[Email](mailto:edocohen@mail.tau.ac.il) • [LinkedIn](https://www.linkedin.com/in/edo-cohen) • [Google Scholar](https://scholar.google.com/citations?hl=en&user=uLBSdVQAAAAJ)
+[Email](edocohen@mail.tau.ac.il) | [LinkedIn](https://www.linkedin.com/in/edo-cohen) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=uLBSdVQAAAAJ$0)

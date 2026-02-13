@@ -1,78 +1,140 @@
-# Personal Academic Website
+# Edo Cohen-Karlik - Jekyll Portfolio
 
-This is a simple personal website built with Jekyll for GitHub Pages.
+A modern, editorial-style academic portfolio built with Jekyll.
 
-## Setup Instructions
+## 📁 File Structure
 
-### 1. Create GitHub Repository
-
-1. Go to GitHub and create a new repository named `yourusername.github.io` (replace `yourusername` with your actual GitHub username)
-2. Initialize it as a public repository
-
-### 2. Upload These Files
-
-Clone your new repository and copy all these files into it:
-
-```bash
-git clone https://github.com/yourusername/yourusername.github.io.git
-cd yourusername.github.io
-# Copy all files from this folder
-git add .
-git commit -m "Initial commit"
-git push origin main
+```
+├── _config.yml                 # Jekyll configuration
+├── _layouts/
+│   └── default.html           # Main layout template
+├── _data/
+│   ├── publications.yml       # Publications data
+│   └── teaching.yml           # Teaching experience data
+├── assets/
+│   ├── css/
+│   │   └── style.css         # Main stylesheet
+│   └── js/
+│       └── script.js         # JavaScript for animations
+└── index.md                   # Homepage content
 ```
 
-### 3. Enable GitHub Pages
+## 🚀 Setup Instructions
 
-1. Go to your repository settings on GitHub
-2. Navigate to "Pages" in the left sidebar
-3. Under "Source", select "main" branch
-4. Click "Save"
+### Option 1: GitHub Pages (Recommended)
 
-Your site will be live at `https://yourusername.github.io` in a few minutes!
+1. **Upload files to your repository** with this structure:
+   - Copy all files to the root of your `edocoh87.github.io` repository
+   - Maintain the folder structure shown above
 
-## Editing Your Website
+2. **Enable GitHub Pages**:
+   - Go to Settings → Pages
+   - Source: Deploy from branch
+   - Branch: `main` (or `master`)
+   - Folder: `/ (root)`
 
-### Update Your Information
+3. **Wait for deployment**: GitHub will automatically build and deploy your site
 
-Edit `_config.yml` to change:
-- `title`: Your name
-- `url`: Your actual GitHub Pages URL
+### Option 2: Local Development
 
-### Update Your About Section and Publications
-
-Edit `index.md` to:
-- Replace the placeholder text in the "Welcome" section with your actual bio
-- Add/remove publications in the Publications section
-- Update contact information at the bottom
-
-### Making Updates
-
-Whenever you want to update your site:
-
-1. Edit the `index.md` file
-2. Commit your changes:
+1. **Install Jekyll**:
    ```bash
-   git add index.md
-   git commit -m "Updated publications"
-   git push origin main
+   gem install bundler jekyll
    ```
-3. Wait 1-2 minutes for GitHub Pages to rebuild your site
 
-## Customization
+2. **Create a Gemfile** in the root directory:
+   ```ruby
+   source "https://rubygems.org"
+   gem "jekyll", "~> 4.3"
+   gem "webrick", "~> 1.8"
+   ```
 
-This site uses the default "minima" theme. You can:
-- Change the theme by editing `_config.yml`
-- Add custom CSS by creating `assets/css/style.scss`
-- Add more pages by creating new `.md` files
+3. **Install dependencies**:
+   ```bash
+   bundle install
+   ```
 
-## Testing Locally (Optional)
+4. **Run locally**:
+   ```bash
+   bundle exec jekyll serve
+   ```
 
-To preview your site before pushing:
+5. **View in browser**: Visit `http://localhost:4000`
 
-```bash
-bundle install
-bundle exec jekyll serve
+## ✏️ Editing Content
+
+### Update Publications
+
+Edit `_data/publications.yml`:
+
+```yaml
+- year: 2026
+  title: "Your Paper Title"
+  authors: "<strong>E. Cohen-Karlik</strong>, Other Authors"
+  venue: "Conference Name"
+  url: "https://link-to-paper.pdf"
 ```
 
-Then visit `http://localhost:4000` in your browser.
+### Update Teaching
+
+Edit `_data/teaching.yml`:
+
+```yaml
+- name: "Course Name"
+  years: "2020–2023"
+```
+
+### Update Bio
+
+Edit the hero section in `index.md`
+
+## 🎨 Customization
+
+### Colors
+
+Edit CSS variables in `assets/css/style.css`:
+
+```css
+:root {
+    --ink: #0a0a0f;           /* Text color */
+    --paper: #faf8f3;         /* Background */
+    --accent: #d63447;        /* Accent color */
+    --accent-soft: #ff6b7a;   /* Soft accent */
+    --gray: #6b7280;          /* Secondary text */
+}
+```
+
+### Fonts
+
+The design uses:
+- **Fraunces** (serif) for headlines
+- **Instrument Sans** for body text
+
+Change fonts in `_layouts/default.html` by modifying the Google Fonts link.
+
+## 📱 Features
+
+- ✨ Smooth scroll animations
+- 📱 Fully responsive design
+- 🎨 Editorial typography
+- 🔗 Dynamic content from YAML data files
+- ⚡ Fast loading with minimal dependencies
+
+## 🛠️ Troubleshooting
+
+**Site not updating?**
+- Clear browser cache
+- Check GitHub Actions tab for build errors
+- Wait 2-3 minutes after pushing changes
+
+**Styles not loading?**
+- Ensure folder structure matches exactly
+- Check that CSS file is in `assets/css/style.css`
+
+**Liquid errors?**
+- Verify YAML formatting in data files
+- Ensure proper indentation (use spaces, not tabs)
+
+## 📄 License
+
+Feel free to use and modify for your own academic portfolio!

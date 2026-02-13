@@ -1,7 +1,25 @@
+# Site settings
 title: Edo Cohen-Karlik
-description: Personal Homepage
-theme: minima
+description: AI Researcher and Builder
 url: "https://edocoh87.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
+theme: null
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Collections
+collections:
+  data:
+    output: false

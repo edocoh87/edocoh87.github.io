@@ -1,0 +1,77 @@
+- year: 2026
+  title: "On the Expressivity of Selective State-Space Layers: A Multivariate Polynomial Approach"
+  authors: "<strong>E. Cohen-Karlik</strong>, I. Zimerman, L. Galanti, I. Atad, A. Globerson, L. Wolf"
+  venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
+  url: "https://arxiv.org/pdf/2502.02209"
+
+- year: 2025
+  title: "Implicit Bias of Policy Gradient in Linear Quadratic Control: Extrapolation to Unseen Initial States"
+  authors: "N. Razin, Y. Alexander, <strong>E. Cohen-Karlik</strong>, R. Giryes, A. Globerson, N. Cohen"
+  venue: "International Conference on Machine Learning (ICML)"
+  url: "https://arxiv.org/pdf/2402.07875"
+
+- year: 2024
+  title: "Provable Benefits of Complex Parameterizations for Structured State Space Models"
+  authors: "Y. Ran-Milo, E. Lumbroso, <strong>E. Cohen-Karlik</strong>, R. Giryes, A. Globerson, N. Cohen"
+  venue: "Advanced in Neural Information Processing Systems (NeurIPS)"
+  url: "https://arxiv.org/pdf/2410.14067"
+
+- year: 2024
+  title: "Order Agnostic Autoregressive Graph Generation"
+  authors: "<strong>E. Cohen-Karlik</strong>, E. Rozenberg, D. Freedman"
+  venue: "Transactions on Machine Learning Research (TMLR)"
+  url: "https://openreview.net/pdf?id=BK6Gc10tRy"
+
+- year: 2023
+  title: "Learning Low Dimensional State Spaces with Overparameterized Recurrent Neural Nets"
+  authors: "<strong>E. Cohen-Karlik</strong>, I. Menuhin-Gruman, R. Giryes, N. Cohen, A. Globerson"
+  venue: "International Conference on Learning Representations (ICLR)"
+  url: "https://arxiv.org/pdf/2210.14064"
+
+- year: 2022
+  title: "On the Implicit Bias of Gradient Descent for Temporal Extrapolation"
+  authors: "<strong>E. Cohen-Karlik</strong>, A. Ben David, N. Cohen, A. Globerson"
+  venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
+  url: "https://arxiv.org/pdf/2202.04302"
+
+- year: 2021
+  title: "An autonomous debating system"
+  authors: "N. Slonim, Y. Bilu, C. Alzate, R. Bar-Haim, B. Bogin, F. Bonin, L. Choshen, <strong>E. Cohen-Karlik</strong>, L. Dankin, L. Edelstein, L. Ein-Dor, R. Friedman-Melamed, A. Gavron, A. Gera, M. Gleize, S. Gretz, D. Gutfreund, A. Halfon, D. Hershcovich, R. Hoory, Y. Hou, S. Hummel, M. Jacovi, C. Jochim, Y. Kantor, Y. Katz, D. Konopnicki, Z. Kons, L. Kotlerman, D. Krieger, D. Lahav, T. Lavee, R. Levy, N. Liberman, Y. Mass, A. Menczel, S. Mirkin, G. Moshkowich, S. Ofek-Koifman, M. Orbach, E. Rabinovich, R. Rinott, S. Shechtman, D. Sheinwald, E. Shnarich, I. Shnayderman, A. Soffer, A. Spector, B. Sznajder, A. Toledo, O. Toledo-Ronen, E. Venezian, R. Aharonov"
+  venue: "Nature"
+  url: "https://www.nature.com/articles/s41586-021-03215-w"
+
+- year: 2021
+  title: "Quantification of osteoclasts in culture, powered by machine learning"
+  authors: "<strong>E. Cohen-Karlik</strong>, Z. Awida, A. Bergman, S. Eshed, O. Nestor, M. Kadashev, S. Ben Yosef, H. Saed, Y. Mansour, A. Globerson, D. Neumann, Y. Gabet"
+  venue: "Frontiers in Cell and Developmental Biology"
+  url: "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2021.674710/full"
+
+- year: 2020
+  title: "Regularizing Towards Permutation Invariance in Recurrent Models"
+  authors: "<strong>E. Cohen-Karlik</strong>, A. Ben David, A. Globerson"
+  venue: "Advanced in Neural Information Processing Systems (NeurIPS)"
+  url: "https://arxiv.org/pdf/2010.13055"
+
+- year: 2020
+  title: "A Large-scale Dataset for Argument Quality Ranking: Construction and Analysis"
+  authors: "S. Gretz, R. Friedman, <strong>E. Cohen-Karlik</strong>, A. Toledo, D. Lahav, R. Aharonov, N. Slonim"
+  venue: "Association for the Advancement of Artificial Intelligence (AAAI)"
+  url: "https://arxiv.org/pdf/1911.11408"
+
+- year: 2019
+  title: "Learning to combine Grammatical Error Corrections"
+  authors: "Y. Kantor, Y. Katz, L. Choshen, <strong>E. Cohen-Karlik</strong>, N. Liberman, A. Toledo, A. Menczel, N. Slonim"
+  venue: "Workshop at Association for Computational Linguistics (ACL)"
+  url: "https://arxiv.org/pdf/1906.03897"
+
+- year: 2019
+  title: "Automatic Argument Quality Assessment–New Datasets and Methods"
+  authors: "A. Toledo, S. Gretz, <strong>E. Cohen-Karlik</strong>, R. Friedman, E. Venezian, D. Lahav, M. Jacovi, R. Aharonov, N. Slonim"
+  venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+  url: "https://arxiv.org/pdf/1909.01007"
+
+- year: 2017
+  title: "Object Oriented Consensus"
+  authors: "Y. Afek, J. Aspnes, <strong>E. Cohen-Karlik</strong>, D. Vainstein"
+  venue: "Brief announcement at Principles of Distributed Computing (PODC)"
+  url: "https://dl.acm.org/doi/pdf/10.1145/3087801.3087867"

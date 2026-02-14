@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Try multiple selectors to catch the right one */
+.main-content,
+.container,
+.page-content,
+.wrapper,
+article,
+main {
+  max-width: 600px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Or add padding to body */
+body {
+  padding-left: 20% !important;
+  padding-right: 20% !important;
+}
